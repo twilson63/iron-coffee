@@ -5,19 +5,17 @@ A flatiron http server template in coffee-script
 ## Technologies
 This is a template that can be used to create nodejs applications using 
 
-* Node v0.6.8
+* NodeJs
 * Flatiron
-* CoffeeScript! v1.1.3
-* CoffeeCup
-* Connect Assets v2.1.5
+* CoffeeScript
+* Jade
 
 ## Requirements
 
 * [NodeJs](http://nodejs.org)
 * [Flatiron](http://flatiron.com)
 * [CoffeeScript](http://coffeescript.org)
-* [CoffeeCup](http://http://coffeecup-docs.nodejitsu.com/)
-* [connect-assets](http://github.com/TrevorBurnham/connect-assets)
+* [Jade](http://jade-lang.com/)
 
 These will install with npm, just do 
 
@@ -55,7 +53,7 @@ setup for an Express Web App.  It includes a Cakefile that lets you build, and w
 coffeecup views in the views folder and put your public assets in the public folder.  Enjoy your iron-coffee 
 
   ~      
-c[_] 1.2.0     
+c[_]
 
 
 ## License
