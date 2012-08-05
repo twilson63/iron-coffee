@@ -1,0 +1,21 @@
+body {
+  padding-top: 90px;
+}
+
+.hero-unit h1 {
+  font-family: 'Times New Roman';
+  font-size: 3em;
+}
+
+article h1 {
+  margin-bottom: 20px;
+}
+article .body {
+  margin-bottom: 10px;
+}
+
+article .body {
+  font-size: 2em;
+  line-height: 30px;
+  color: rgba(0,0,0,.6);
+}

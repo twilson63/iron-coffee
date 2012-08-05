@@ -1,0 +1,21 @@
+!!!
+html(lang="en")
+  head
+    meta(charset='utf-8')
+    link(rel="stylesheet", href="/css/bootstrap.min.css")
+    link(rel="stylesheet", href="/css/bootstrap-responsive.min.css")
+    link(rel="stylesheet", href="/css/app.css")
+    title Iron-Coffee
+    script(src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js")
+    script(src="/js/bootstrap.min.js")
+    
+  body
+    div.navbar.navbar-fixed-top
+      div.navbar-inner
+        div.container
+          a.brand(href="/") Iron-Coffee
+          ul.nav
+            li: a(href="/") Home
+            li: a(href="/about") About
+            li: a(href="/contact") Contact
+    block content
