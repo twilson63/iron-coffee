@@ -29,16 +29,15 @@ In your project directory.
 
 ## Install, Build, Run, Test, and Watch
 
-```
-# Install nodejs and npm
+### Install nodejs and npm
 
-git clone http://github.com/twilson63/iron-coffee.git [project-name]
-cd [project-name]
-npm install
+    git clone http://github.com/twilson63/iron-coffee.git [project-name]
+    cd [project-name]
+    npm install
 
-# Run
+### Run
 
-node server.js
+    node server.js
 
 ## Thanks to
 
@@ -52,8 +51,8 @@ flatiron web applications in CoffeeScript.  It comes ready to go with base
 setup for an Express Web App.  It includes a Cakefile that lets you build, and watch your coffeescript as you develop.  You hack in the src folder and run cake build to build you server files.  Create your
 coffeecup views in the views folder and put your public assets in the public folder.  Enjoy your iron-coffee 
 
-  ~      
-c[_]
+      ~      
+    c[_]
 
 
 ## License
