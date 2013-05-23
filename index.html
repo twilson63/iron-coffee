@@ -4,30 +4,40 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Iron-coffee by twilson63</title>
-
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
   <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/twilson63/iron-coffee">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/twilson63/iron-coffee/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/twilson63/iron-coffee/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
     <div class="wrapper">
-      <header>
-        <h1>Iron-coffee</h1>
-        <p>A Flatiron Template in CoffeeScript</p>
 
-        <p class="view"><a href="https://github.com/twilson63/iron-coffee">View the Project on GitHub <small>twilson63/iron-coffee</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/twilson63/iron-coffee/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/twilson63/iron-coffee/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/twilson63/iron-coffee">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
       <section>
+        <div id="title">
+          <h1>Iron-coffee</h1>
+          <p>A Flatiron Template in CoffeeScript</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/twilson63">twilson63</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
+        </div>
+
         <h1>iron-coffee</h1>
 
 <p>A flatiron http server template in coffee-script</p>
@@ -57,43 +67,43 @@
 
 <hr><h2>Install, Build, Run, Test, and Watch</h2>
 
-<pre><code># Install nodejs and npm
+<h3>Install nodejs and npm</h3>
 
-git clone http://github.com/twilson63/iron-coffee.git [project-name]
+<pre><code>git clone http://github.com/twilson63/iron-coffee.git [project-name]
 cd [project-name]
 npm install
+</code></pre>
 
-# Run
+<h3>Run</h3>
 
-node server.js
+<pre><code>node server.js
+</code></pre>
 
-## Thanks to
+<h2>Thanks to</h2>
 
-* [Jeremy Ashkenas](https://github.com/jashkenas) for creating coffee-script
-* [Nodejitsu](https://github.com/nodejitsu) for creating flatiron
+<ul>
+<li>
+<a href="https://github.com/jashkenas">Jeremy Ashkenas</a> for creating coffee-script</li>
+<li>
+<a href="https://github.com/nodejitsu">Nodejitsu</a> for creating flatiron</li>
+</ul><h2>About</h2>
 
-## About
-
-iron-coffee is a template or boiler-plate to get started writting 
+<p>iron-coffee is a template or boiler-plate to get started writting 
 flatiron web applications in CoffeeScript.  It comes ready to go with base
 setup for an Express Web App.  It includes a Cakefile that lets you build, and watch your coffeescript as you develop.  You hack in the src folder and run cake build to build you server files.  Create your
-coffeecup views in the views folder and put your public assets in the public folder.  Enjoy your iron-coffee 
+coffeecup views in the views folder and put your public assets in the public folder.  Enjoy your iron-coffee </p>
 
-  ~      
+<pre><code>  ~      
 c[_]
-
-
-## License
-
-See LICENSE
 </code></pre>
+
+<h2>License</h2>
+
+<p>See LICENSE</p>
       </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/twilson63">twilson63</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
   </body>
 </html>
